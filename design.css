@@ -1,0 +1,77 @@
+.html{
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.body {
+    background-color: #c3d1db;
+    padding: 30px;
+}
+
+.h1 {
+	font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    width: 40%;
+}
+
+.h2 {
+	font-size: 20px;
+    font-weight: regular;
+    text-align: left;
+    width: 30%;
+}
+
+.navigation{
+    font-size: 16px;
+    font-weight: 700;
+
+    box-sizing: content-box;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    text-align: center;
+}
+
+.header {
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 86px;
+	margin: 0;
+	padding: 0rem;
+	background: #457faa;
+	color: white;
+}
+
+
+
+.page {
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 90px;
+	bottom: 0;
+	overflow-y: auto;
+}
+
+.todolist {
+	
+	position: fixed;
+	top: 100px;
+	left: 19%;
+	right: 20%;
+	height: 700px;
+	margin: 0;
+	padding: 0rem;
+	background: #3d3f40;
+	color: white;
+}
+
